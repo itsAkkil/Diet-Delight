@@ -1,0 +1,126 @@
+ .main-section {
+            background-color: black;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            height: 900px;
+            align-items: center;
+
+        }
+
+
+        .section1 {
+           display: grid;
+          
+           grid-template-rows: 1fr 1fr;
+
+        }
+
+        .section1-para1{
+            color:aliceblue;
+            font-size: 40px;
+            margin-left: 40%;
+            font-weight: 400;
+
+
+        }
+
+        .section1-para2{
+            color:aliceblue;
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+
+        .button-contact-us {
+            border: none;
+            background-color: green;
+            border-radius: 30px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 140px;
+            height: 40px;
+
+        }
+
+
+        .section2 {            
+            display: grid;
+            column-gap: 25px;
+            grid-template-columns: 1fr 1fr;
+          }
+
+
+        .section2-left {
+          
+
+
+        }
+
+        .section2-right {
+        
+
+        }
+
+
+        .diet-photo1 ,.diet-photo{
+            width: 550px;
+            height: 450px;
+           
+            }
+
+        .our-principal{
+            margin-top: 30px;
+            padding-left: 60px;
+        }
+        
+        .photo{
+            margin-left: 100px;
+            margin-top: 30px;
+          
+        }
+
+        .photo-salad{
+            padding-left: 50px;
+            
+        }
+
+        .table{
+            display: grid;
+           grid-template-columns: 1fr  1fr;
+           margin-left: 100px;
+           column-gap: 10px;
+           
+           margin-top:50px;
+        }
+
+        .left{
+           
+            font-size: 50px; 
+            padding-left: 150px;    
+                        
+        }
+
+        .right{
+           
+                           
+        }
+
+        .input-box{
+           margin-top: 10px;
+           width: 380px;
+           height: 50px;
+           border-radius: 15;
+           border-style: solid;
+           padding-left: 10px;          
+           
+        }
+
+        .input-para{
+            padding-left: 10px;
+            padding-top: 20px;
+        }

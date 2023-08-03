@@ -1,0 +1,40 @@
+.footer {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-logo {
+    font-size: 39px;
+    font-weight: 100;
+    margin-left: 550px;
+    margin-top: -18px;
+}
+
+.footer-logos {
+    display: flex;
+
+}
+
+.insta-logo {
+    width: 40px;
+    height: 34px;
+    margin-top: 40px;
+    margin-left: -150px;
+
+}
+
+.insta-logo1 {
+    width: 40px;
+    height: 34px;
+    margin-top: 40px;
+
+}
+
+.insta-logo2 {
+    width: 40px;
+    height: 34px;
+    margin-top: 40px;
+
+}
