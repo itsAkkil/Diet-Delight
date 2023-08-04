@@ -1,40 +1,37 @@
 .footer {
-    background-color: lightgreen;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    align-content: center;
+    background-color: lightgreen;
     height: 150px;
 }
 
-.footer-logo {
-    font-size: 39px;
-    font-weight: 100;
-    margin-left: 550px;
-    margin-top: -18px;
+.f-first{
+    flex: 1;
+   
+}
+
+.f-first-logo{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 3px;
+     
 }
 
 .footer-logos {
-    display: flex;
-
+    flex:1;    
 }
 
-.insta-logo {
-    width: 40px;
-    height: 34px;
-    margin-top: 40px;
-    margin-left: -150px;
-
+.insta-logo,.insta-logo1,.insta-logo2 {
+    width: 30px;
+    height: 30px;
+    margin: 0;
 }
 
-.insta-logo1 {
-    width: 40px;
-    height: 34px;
-    margin-top: 40px;
 
-}
-
-.insta-logo2 {
-    width: 40px;
-    height: 34px;
-    margin-top: 40px;
-
+.c-r{
+    background-color: black;
+    color: aliceblue;
+    
 }
